@@ -1,0 +1,128 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+
+.header {
+  background-color: #cc0000;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 120px;
+  max-height: 60px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-bar button {
+  background-color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.user-actions .icon {
+  text-decoration: none;
+  color: #fff;  
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+
+.about-us {
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  color: #cc0000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.logo-section {
+  text-align: center;
+}
+
+.logo-section .logo {
+  max-width: 130px;
+  max-height: 70px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+
+.footer {
+  background-color: #cc0000;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
